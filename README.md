@@ -28,10 +28,10 @@ The book does not cover how to do work with Radio Buttons. I will talk about it 
 ## Outside Resources Used
 
 https://en.wikipedia.org/wiki/Conversion_of_units_of_temperature
-The webpage above showed me the formulas needed to convert between temperature scales.
+This webpage showed me the formulas needed to convert between temperature scales.
 
 http://stackoverflow.com/questions/5179686/restoring-state-of-textview-after-screen-rotation
-The webpage above showed me a far easier method of restoring values on screen rotation:
+This webpage showed me a far easier method of restoring values on screen rotation:
 
 	android:freezesText="true"
 
