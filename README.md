@@ -1,6 +1,6 @@
 # Assignment 2 - Temperature Converter
 
-## Author
+## Author - Andy Cullen
 
 ## Description
 
@@ -27,6 +27,18 @@ The book does not cover how to do work with Radio Buttons. I will talk about it 
 
 ## Outside Resources Used
 
+https://en.wikipedia.org/wiki/Conversion_of_units_of_temperature
+The webpage above showed me the formulas needed to convert between temperature scales.
+
+http://stackoverflow.com/questions/5179686/restoring-state-of-textview-after-screen-rotation
+The webpage above showed me a far easier method of restoring values on screen rotation:
+
+	android:freezesText="true"
+
+"If set, the text view will include its current complete text inside of its frozen icicle in addition to meta-data such as the current cursor position. By default this is disabled; it can be useful when the contents of a text view is not stored in a persistent place such as a content provider."
+
+(I used this instead of the saveInstanceState/restoreInstanceState methods.)
+
 ## Known Problems, Issues, And/Or Errors in the Program
 
-
+Works fine!
